@@ -1,0 +1,16 @@
+{
+  "name": "romanizer_js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape romanizer.test.js | tap-spec"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC", 
+  "devDependencies": {
+    "tap-spec": "^5.0.0",
+    "tape": "^4.10.2"
+  }
+}
