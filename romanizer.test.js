@@ -19,3 +19,10 @@ test('Romanizer output', function(t) {
   t.equal(actual,output, '2 to output II')
   t.end()
 })
+
+test('Romanizer output', function(t) {
+  let actual = romanizer(3)
+  let output = 'III'
+  t.equal(actual,output, '3 to output III')
+  t.end()
+})

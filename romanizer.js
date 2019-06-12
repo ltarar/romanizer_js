@@ -1,8 +1,10 @@
 function romanizer(number) {
-  if (number == 2) {
-    return 'II'
+  result = ''
+  while (number > 0) {
+    result += 'I'
+    number -= 1
   }
-  return 'I'
+  return result
 }
 
 module.exports = romanizer
