@@ -4,12 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "tape romanizer.test.js | tap-spec"
+    "test": "nodemon romanizer.test.js | tap-spec"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC", 
+  "license": "ISC",
   "devDependencies": {
+    "nodemon": "^1.19.1",
     "tap-spec": "^5.0.0",
     "tape": "^4.10.2"
   }
