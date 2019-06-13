@@ -69,3 +69,38 @@ test('Romanizer output', function(t) {
   t.end()
 })
 
+test('Romanizer output', function(t) {
+  let actual = romanizer(10)
+  let output = 'X'
+  t.equal(actual,output, '10 to output X')
+  t.end()
+})
+
+test('Romanizer output', function(t) {
+  let actual = romanizer(11)
+  let output = 'XI'
+  t.equal(actual,output, '11 to output XI')
+  t.end()
+})
+
+test('Romanizer output', function(t) {
+  let actual = romanizer(12)
+  let output = 'XII'
+  t.equal(actual,output, '12 to output XII')
+  t.end()
+})
+
+test('Romanizer output', function(t) {
+  let actual = romanizer(14)
+  let output = 'XIV'
+  t.equal(actual,output, '14 to output XIV')
+  t.end()
+})
+
+test('Romanizer output', function(t) {
+  let actual = romanizer(15)
+  let output = 'XV'
+  t.equal(actual,output, '15 to output XV')
+  t.end()
+})
+

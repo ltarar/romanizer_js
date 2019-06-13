@@ -1,5 +1,9 @@
 let values = [
   {
+    arabic: 10,
+    roman: 'X'
+  },
+  {
     arabic: 9,
     roman: 'IX'
   },
