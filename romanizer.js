@@ -1,11 +1,16 @@
 function romanizer(num) {
+  remaining = num
   result = ''
-  if (num === 4) {
+  if (remaining >= 5) {
+    result += 'V'
+    remaining -= 5
+  } else if (num === 4) {
     return 'IV'
   }
-  while (num > 0) {
+
+  while (remaining > 0) {
     result += 'I'
-    num -= 1
+    remaining -= 1
   }
   return result
 }
