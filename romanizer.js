@@ -14,6 +14,10 @@ let values = [
   {
     arabic: 4,
     roman: 'IV'
+  },
+  {
+    arabic: 1,
+    roman: 'I'
   }
 ]
 
@@ -22,15 +26,11 @@ function romanizer(num) {
   result = ''
 
   values.forEach(function(value) {
-    if (remaining >= value.arabic) {
+    while (remaining >= value.arabic) {
       result += value.roman
       remaining -= value.arabic
     }
   })
-  while (remaining > 0) {
-    result += 'I'
-    remaining -= 1
-  }
   return result
 }
 
