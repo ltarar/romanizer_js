@@ -40,3 +40,24 @@ test('Romanizer output', function(t) {
   t.equal(actual,output, '5 to output V')
   t.end()
 })
+
+test('Romanizer output', function(t) {
+  let actual = romanizer(6)
+  let output = 'VI'
+  t.equal(actual,output, '6 to output VI')
+  t.end()
+})
+
+test('Romanizer output', function(t) {
+  let actual = romanizer(7)
+  let output = 'VII'
+  t.equal(actual,output, '7 to output VII')
+  t.end()
+})
+
+test('Romanizer output', function(t) {
+  let actual = romanizer(8)
+  let output = 'VIII'
+  t.equal(actual,output, '8 to output VIII')
+  t.end()
+})
