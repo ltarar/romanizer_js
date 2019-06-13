@@ -1,8 +1,11 @@
-function romanizer(number) {
+function romanizer(num) {
   result = ''
-  while (number > 0) {
+  if (num === 4) {
+    return 'IV'
+  }
+  while (num > 0) {
     result += 'I'
-    number -= 1
+    num -= 1
   }
   return result
 }
